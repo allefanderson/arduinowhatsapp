@@ -2,10 +2,7 @@ from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 import os
 
-
 app = Flask(__name__)
-
-
 
 @app.route("/led", methods=['POST'])
 def sms_reply():
