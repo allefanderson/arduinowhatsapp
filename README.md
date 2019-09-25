@@ -1,6 +1,6 @@
 # arduinowhatsapp
 Interface entre Whatsapp e Arduino
-Bibliotescas:
+Bibliotecas:
 
 pip install twilio
 pip install flask
